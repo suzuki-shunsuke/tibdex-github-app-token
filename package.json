@@ -15,6 +15,9 @@
     "prettier": "prettier --ignore-path .gitignore \"./**/*.{js,json,md,ts,yml}\"",
     "typecheck": "tsc --build"
   },
+  "overrides": {
+    "undici": "^6.24.0"
+  },
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^9.1.1",
