@@ -9,6 +9,17 @@ We won't maintain this fork continuously.
 You should migrate to actions like [actions/create-github-app-token](https://github.com/actions/create-github-app-token) as soon as possible.
 This fork will be useful if you can't migrate to other actions by June 2nd, 2026.
 
+### How To Migrate
+
+You only need to change the action name from `tibdex/github-app-token` to `suzuki-shunsuke/tibdex-github-app-token` and update the version.
+Inputs and outputs aren't changed.
+
+```diff
+<         uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
+---
+>         uses: suzuki-shunsuke/tibdex-github-app-token@f4167cdfd5054e33369bcab9b44da752e23ce61c # v3.0.1
+```
+
 ---
 
 > [!IMPORTANT]  
