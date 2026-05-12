@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: create_token
-        uses: tibdex/github-app-token@v2
+        uses: suzuki-shunsuke/tibdex-github-app-token@55429bbc082600559820fc71ef237b3f0e2a50a1 # v3.0.0
         with:
           app_id: ${{ secrets.APP_ID }}
 
