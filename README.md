@@ -2,6 +2,9 @@ This is a fork of [tibdex/github-app-token](https://github.com/tibdex/github-app
 ](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/).
 
 This fork includes only a minor update to use Node 24.
+
+[Diff](https://github.com/suzuki-shunsuke/tibdex-github-app-token/compare/a3da042061e3b5d09ad01f41d2328f429d8d1c62...main)
+
 We won't maintain this fork continuously.
 You should migrate to actions like [actions/create-github-app-token](https://github.com/actions/create-github-app-token) as soon as possible.
 This fork will be useful if you can't migrate to other actions by June 2nd, 2026.
