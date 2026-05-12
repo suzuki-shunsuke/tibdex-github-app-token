@@ -17,7 +17,7 @@ Inputs and outputs aren't changed.
 ```diff
 <         uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
 ---
->         uses: suzuki-shunsuke/tibdex-github-app-token@f4167cdfd5054e33369bcab9b44da752e23ce61c # v3.0.1
+>         uses: suzuki-shunsuke/tibdex-github-app-token@7b3d27c114fd04b2c57720d2130769713b801d3c # v3.0.2
 ```
 
 ---
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: create_token
-        uses: suzuki-shunsuke/tibdex-github-app-token@55429bbc082600559820fc71ef237b3f0e2a50a1 # v3.0.0
+        uses: suzuki-shunsuke/tibdex-github-app-token@7b3d27c114fd04b2c57720d2130769713b801d3c # v3.0.2
         with:
           app_id: ${{ secrets.APP_ID }}
 
